@@ -89,6 +89,8 @@ h1 {
 	margin: 120px auto 20px auto;
 	padding: 10px;
 	background-color: #fff;
+	border: 0;
+	border-radius: 10px;
 }
 
 h2 {
