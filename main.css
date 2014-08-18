@@ -1,0 +1,179 @@
+/*
+	Title: Main CSS Document for FizzBuzz App;
+	Project: FizzBuzz App (Version: 1.0);
+	Author: Peter Applebee;
+	Date: 18/08/2014;
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END OF CSS RESET ===============================================*/
+
+body {
+	background-color: #F1FFEF;
+	color: #000;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+#header {
+	width: 90%;
+	padding: 20px 5%;
+	position: fixed;
+	top: 0;
+	background-color: #AADD99;
+	box-shadow: 0px 2px 2px #c3c3c3;
+}
+
+h1 {
+	color: rgba(241,255,239,0.8);
+	font-size: 300%;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #AADD99, 0 0 0 #000, 2px 2px 2px #AADD99;
+}
+
+::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
+::selection { background: #5af; color: #fff; text-shadow: none; }
+
+#example {
+	width: 300px;
+	margin: 120px auto 20px auto;
+	padding: 10px;
+	background-color: #fff;
+}
+
+h2 {
+	font-size: 150%;
+	color: #AADD99;
+	margin: 10px 5px 20px 5px;
+}
+
+p {
+	margin: 10px;
+}
+
+button {
+	width: 80%;
+	margin: 20px;
+	padding: 10px;
+	background-color: #AADD99;
+	border: 1px solid #AADD99;
+	border-radius: 5px;
+	color: #F1FFEF;
+	font-size: 130%;
+	text-transform: uppercase;
+	outline: none;
+}
+
+button:hover {
+	background-color: #F1FFEF;
+	border: 1px solid #AADD99;
+	color: #AADD99;
+}
+
+button:active {
+	background-color: #FFF;
+	border: 1px solid #CCEEBB;
+	color: #CCEEBB;
+}
+
+#reset {
+	width: 73%;
+	margin: 0 auto 20px auto;
+	padding: 10px;
+	background-color: #DDAA99;
+	border: 1px solid #DDAA99;
+	border-radius: 5px;
+	color: #FFF1EF;
+	font-size: 130%;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+}
+
+#reset:hover {
+	background-color: #FFF1EF;
+	border: 1px solid #DDAA99;
+	color: #DDAA99;
+}
+
+#reset:active {
+	background-color: #FFF;
+	border: 1px solid #EECCBB;
+	color: #EECCBB;
+}
+
+#program-output {
+	margin-bottom: 100px;
+}
+
+#footer {
+	background-color: #AADD99; 
+	width: 90%;
+	position: fixed;
+	bottom: 0;
+	padding: 20px 5%;
+}
+
+#footer p {
+	color: #F1FFEF;
+	text-align: center;
+}
+
+a:link, a:visited {
+	color: #F1FFEF;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+}
