@@ -5,7 +5,7 @@
 
 jQuery(document).ready(function() {
 
-
+	$('#example').hide().slideDown(800);
 		
 
 	$('body').on('click', '#start', function(event) {
