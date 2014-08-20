@@ -160,19 +160,26 @@ label {
 	text-align: right;
 }
 
+
+
 #results-div {
-	width: 50%;
-	padding: 10px 5%;
-	margin: 0 auto;
+	width: 40%;
+	padding: 5px;
+	margin: 10px auto;
+	margin-bottom: 100px;
 	clear: both;
+/*	display: none; */
+	border: 0;
+	border-radius: 10px;
+	background-color: #EFE;
 }
 
 table {
-	width: 100%;
+	margin: 0 auto;
 }
 
 tr {
-	height: 25px;
+	
 }
 
 th {
@@ -181,7 +188,7 @@ th {
 }
 
 td {
-	width: 10px;
+	w
 }
 
 /*===============================================================
@@ -190,7 +197,7 @@ CONTROLS
 
 #controls {
 	width: 90%;
-	padding: 0 5% 20px 5%;
+	padding: 20px 5% 20px 5%;
 	clear: both;
 }
 
@@ -204,7 +211,7 @@ button {
 	color: #F1FFEF;
 	font-size: 130%;
 	text-transform: uppercase;
-/*	outline: none;	*/
+	outline: none;
 	display: inline-block;
 }
 
@@ -223,7 +230,7 @@ button:active {
 #reset {
 	width: 40%;
 	margin: 0 20px;
-	padding: 13px 10px;
+	padding: 10px;
 	background-color: #DDAA99;
 	border: 1px solid #DDAA99;
 	border-radius: 5px;
@@ -232,6 +239,7 @@ button:active {
 	text-transform: uppercase;
 	text-decoration: none;
 	display: inline-block;
+	outline: none;
 }
 
 #reset:hover {
@@ -251,7 +259,7 @@ NUMBER OUTPUT
 ===============================================================*/
 
 #program-output {
-	margin-bottom: 100px;
+	margin-bottom: 10px;
 	overflow: hidden;
 	padding: 0 5%;
 	margin-right: auto;
