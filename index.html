@@ -20,14 +20,42 @@
 	</div>
 
 	<div id="example">
-		<h2>Explanation</h2>
-		<p>Counts from 1 to 100</p>
-		<p>Divisible by 3 = Fizz</p>
-		<p>Divisible by 5 = Buzz</p>
-		<p>Divisible by 3 and 5 = Fizz-Buzz</p>
-		<p>Press Start</p>
-		<button id="start">Start</button>
-		<a id="reset" href="index.html">Reset</a>
+		<div id="explanation">
+			<h2>Explanation</h2>
+			<p>Divisible by 3 = Fizz</p>
+			<p>Divisible by 5 = Buzz</p>
+			<p>Divisible by 3 and 5 = FizzBuzz</p>		
+		</div>
+
+		<div id="instructions">
+			<h2>Instructions</h2>
+			<p class="width-50-percent">Enter Start and Finish number</p>
+			<form id="user-input-form">
+				<label id="start-label">Start</label><input id="start-number" type="number" value="1">
+				<input id="finish-number" type="number" value="100"><label id="finish-label">Finish</label>
+			</form>			
+		</div>
+
+		<div id="results-div">
+	<!--	<h4>Results Counter</h4>	-->
+			<table id="results-counter">
+				
+					<tr>
+						<th class="fizz">Fizz</th>
+						<td id="fizz-data">0</td>
+						<th class="buzz">Buzz</th>
+						<td id="buzz-data">0</td>
+						<th class="fizz-buzz">FizzBuzz</th>
+						<td id="fizzbuzz-data">0</td>
+					</tr>
+
+			</table>
+		</div>
+			
+		<div id="controls">
+			<button id="start">Start</button>
+			<a id="reset" href="index.html">Reset</a>
+		</div>
 	</div>
 
 	<div id="program-output">

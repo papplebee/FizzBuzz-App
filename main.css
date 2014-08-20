@@ -63,6 +63,10 @@ body {
 	text-align: center;
 }
 
+/*======================================================
+HEADER
+======================================================*/
+
 #header {
 	width: 90%;
 	padding: 20px 5%;
@@ -84,8 +88,17 @@ h1 {
 ::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
 ::selection { background: #5af; color: #fff; text-shadow: none; }
 
+/*=========================================================================
+EXPLANATION & INSTRUCTIONS
+=========================================================================*/
+
+* {
+/*	outline: red 1px solid; */
+}
+
+
 #example {
-	width: 300px;
+	width: 600px;
 	margin: 120px auto 20px auto;
 	padding: 10px;
 	background-color: #fff;
@@ -93,19 +106,97 @@ h1 {
 	border-radius: 10px;
 }
 
+#explanation {
+	width: 300px;
+	float: left;
+}
+
+#instructions {
+	width: 300px;
+	float: left;
+}
+
+
 h2 {
 	font-size: 150%;
 	color: #AADD99;
 	margin: 10px 5px 20px 5px;
 }
 
+h3 {
+	font-size: 120%;
+	display: inline-block;
+	font-weight: normal;
+}
+
 p {
 	margin: 10px;
 }
 
+#user-input-form {
+	width: 250px;
+	text-align: left;
+	margin: 10px auto;
+	padding: 5px;
+}
+
+input {
+	display: inline-block;
+	width: 40px;
+	text-align: left;
+	border-radius: 5px;
+	border: 1px solid #888;
+	padding: 5px;
+}
+
+label {
+	display: inline-block;
+	margin: 0 5px;
+	width: 60px;
+	font-weight: bold;
+}
+
+#start-label {
+	text-align: right;
+}
+
+#results-div {
+	width: 50%;
+	padding: 10px 5%;
+	margin: 0 auto;
+	clear: both;
+}
+
+table {
+	width: 100%;
+}
+
+tr {
+	height: 25px;
+}
+
+th {
+	text-align: right;
+	padding: 0 10px;
+}
+
+td {
+	width: 10px;
+}
+
+/*===============================================================
+CONTROLS
+===============================================================*/
+
+#controls {
+	width: 90%;
+	padding: 0 5% 20px 5%;
+	clear: both;
+}
+
 button {
-	width: 80%;
-	margin: 20px;
+	width: 40%;
+	margin: 0 20px;
 	padding: 10px;
 	background-color: #AADD99;
 	border: 1px solid #AADD99;
@@ -113,7 +204,8 @@ button {
 	color: #F1FFEF;
 	font-size: 130%;
 	text-transform: uppercase;
-	outline: none;
+/*	outline: none;	*/
+	display: inline-block;
 }
 
 button:hover {
@@ -129,9 +221,9 @@ button:active {
 }
 
 #reset {
-	width: 73%;
-	margin: 0 auto 20px auto;
-	padding: 10px;
+	width: 40%;
+	margin: 0 20px;
+	padding: 13px 10px;
 	background-color: #DDAA99;
 	border: 1px solid #DDAA99;
 	border-radius: 5px;
@@ -139,7 +231,7 @@ button:active {
 	font-size: 130%;
 	text-transform: uppercase;
 	text-decoration: none;
-	display: block;
+	display: inline-block;
 }
 
 #reset:hover {
@@ -154,6 +246,10 @@ button:active {
 	color: #EECCBB;
 }
 
+/*===============================================================
+NUMBER OUTPUT
+===============================================================*/
+
 #program-output {
 	margin-bottom: 100px;
 	overflow: hidden;
@@ -162,6 +258,33 @@ button:active {
 	margin-left: auto;
 	width: 600px;
 }
+
+.num {
+	display:none;
+	float: left;
+	width: 100px;
+	padding: 15px 5px;
+	border: 0;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.fizz-buzz {
+	color: #FF1E00;
+}
+
+.fizz {
+	color: #F0E000;
+}
+
+.buzz {
+	color: #2BFF00;
+}
+
+
+/*===================================================================
+FOOTER
+===================================================================*/
 
 #footer {
 	background-color: #AADD99; 
@@ -184,14 +307,4 @@ a:link, a:visited {
 
 a:hover, a:active {
 	text-decoration: underline;
-}
-
-.num {
-	display:none;
-	float: left;
-	width: 100px;
-	padding: 15px 5px;
-	border: 0;
-	border-radius: 5px;
-	background-color: #fff;
 }
